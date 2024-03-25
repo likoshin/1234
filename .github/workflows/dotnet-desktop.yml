@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Select an operating system
+    runs-on: windows-latest  # Select an operating system
 
     steps:
       - name: Checkout repository
