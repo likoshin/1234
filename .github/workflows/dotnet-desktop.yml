@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2  # Clone the project
+        uses: actions/checkout@v4  # Clone the project
 
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v1
